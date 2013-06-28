@@ -31,7 +31,13 @@ git clone git@github.com:skorokithakis/django-project-templates.git
 Pick the template you want and prepare for awesomeness:
 
 ```bash
-django-admin.py startproject --template=/cloned/dir/django-project-templates/your-pick/
+django-admin.py startproject --template=/cloned/dir/django-project-templates/projects/your-pick/ yourproject
+```
+
+or
+
+```bash
+./manage.py startapp --template=/cloned/dir/django-project-templates/apps/your-pick/ yourapp
 ```
 
 Start coding your amazing project and sell it for a cool billion.
