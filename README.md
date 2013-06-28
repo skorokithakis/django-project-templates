@@ -1,7 +1,24 @@
 django-project-templates
 ========================
 
-Some Django project templates for various things.
+Some Django project/app templates for various things.
+
+### Templates
+
+These are the templates `django-project-templates` includes:
+
+#### Projects
+
+* **default**: A barebones project that includes `local_settings.py` support,
+directories for static and media files, `SITE_URL` and `SITE_NAME` variables,
+logging, initial email variables, `south`, `django-extensions`, etc.
+
+#### Apps
+
+* **custom_user_nousername**: An app that includes models with UUIDs (provided
+by [shortuuid](https://github.com/stochastic-technologies/shortuuid)) instead
+of integer ids, a custom `User` model that uses the email as the primary field,
+and corresponding admin interface machinery to make this work.
 
 ### Usage
 
